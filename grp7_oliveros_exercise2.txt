@@ -1,0 +1,40 @@
+# Define two variables for int, float, and complex types
+int_a, int_b = 54, 5
+float_a, float_b = 13.5, 2.5
+complex_a, complex_b = 9 + 2j, 5 + 8j
+
+# Arithmetic operations for integers
+print("Integer Operations:")
+print(f"Addition: {int_a} + {int_b} = {int_a + int_b}")
+print(f"Subtraction: {int_a} - {int_b} = {int_a - int_b}")
+print(f"Multiplication: {int_a} * {int_b} = {int_a * int_b}")
+print(f"Division: {int_a} / {int_b} = {int_a / int_b}")
+print(f"Modulus: {int_a} % {int_b} = {int_a % int_b}")
+print(f"Exponent: {int_a} ** {int_b} = {int_a ** int_b}")
+
+
+# Arithmetic operations for floats
+print("\nFloat Operations:")
+print(f"Addition: {float_a} + {float_b} = {float_a + float_b}")
+
+print("\nComplex Operations:")
+print(f"Addition: {complex_a} + {complex_b} = {complex_a + complex_b}")
+
+# Define the integer variables
+num1 = 25_000_000
+num2 = 25000000
+
+# Print the variables
+print(num1)
+print(num2)
+
+
+# Define variables of int, float, and complex types
+int_var = 60
+float_var = 45.14
+complex_var = 1 + 2j
+
+# Print the type of each variable
+print(f"The type of int_var is: {type(int_var)}")
+print(f"The type of float_var is: {type(float_var)}")
+print(f"The type of complex_var is: {type(complex_var)}")
